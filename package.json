@@ -1,7 +1,7 @@
 {
-  "type": "module",
+  "type": "commonjs",
   "name": "mkdirp",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/waspyro/node-mkdirp/issues"
   },
-  "homepage": "https://github.com/waspyro/node-mkdirp#readme"
+  "homepage": "https://github.com/waspyro/node-mkdirp#readme",
+  "devDependencies": {
+    "@types/node": "^18.13.0"
+  }
 }
