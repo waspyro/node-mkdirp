@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/waspyro/node-mkdirp/issues"
   },
-  "homepage": "https://github.com/waspyro/node-mkdirp#readme",
-  "devDependencies": {
-    "@types/node": "^18.13.0"
-  }
+  "homepage": "https://github.com/waspyro/node-mkdirp#readme"
 }
