@@ -1,7 +1,7 @@
 {
-  "name": "mkdirp",
-  "version": "1.2.0",
-  "author": "",
+  "name": "@waspyro/mkdirp",
+  "version": "1.2.1",
+  "author": "waspyro",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/waspyro/node-mkdirp.git"
@@ -17,11 +17,12 @@
   "license": "ISC",
   "scripts": {
     "prepare": "rm -rf dist && tsc --outDir dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm run prepare && npm publish --access public"
   },
   "type": "commonjs",
   "types": "dist/index.d.ts",
-  "devDependencies": {
+  "dependencies": {
     "@types/node": "^20.9.2"
   }
 }
