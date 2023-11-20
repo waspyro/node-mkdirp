@@ -1,24 +1,27 @@
 {
-  "main": "dist/index.js",
-  "files": ["dist"],
-  "types": "dist/index.d.ts",
-  "type": "commonjs",
   "name": "mkdirp",
   "version": "1.2.0",
-  "description": "",
-  "scripts": {
-    "prepare": "rm -rf dist && tsc --outDir dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/waspyro/node-mkdirp.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "dist/index.js",
   "bugs": {
     "url": "https://github.com/waspyro/node-mkdirp/issues"
   },
-  "homepage": "https://github.com/waspyro/node-mkdirp#readme"
+  "description": "",
+  "files": ["dist"],
+  "homepage": "https://github.com/waspyro/node-mkdirp#readme",
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "prepare": "rm -rf dist && tsc --outDir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^20.9.2"
+  }
 }
